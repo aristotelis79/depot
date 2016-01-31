@@ -2,7 +2,7 @@ require 'test_helper'
 
 class ProductsControllerTest < ActionController::TestCase
   setup do
-    @product = products(:one)
+    @product = products(:RoR_Tutorial)
     @update = {
       title: 'Lorem Ipsum',
       description: 'Lorem Ipsum I say',
